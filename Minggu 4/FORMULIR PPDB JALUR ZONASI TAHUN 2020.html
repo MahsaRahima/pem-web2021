@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULIR PPDB JALUR ZONASI TAHUN 2020</title>
+    </head>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+              text-align: left;
+            }
+        </style>
+    <body>
+        <h1 style="font-size:150%;text-align:center;" >FORMULIR PPDB JALUR ZONASI TAHUN 2020</h1>
+        <form action="proses.php" method="post" name="Formulir">
+            <table style="width:100%;" >
+                <tr>
+                    <th>Nomor</th>
+                    <th>INFO PENDAFTARAN</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">1</td>
+                    <td><label for="fnisn">NISN&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" id="fnisn" name="fnisn"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">2</td>
+                    <td><label for="fasalSekolah">Asal sekolah&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&thinsp;:</label>
+                        <input type="text" id="fasalSekolah" name="fasalSekolah"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">3</td>
+                    <td><label for="ftahunLulus">Tahun Lulus&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:</label>
+                        <input type="text" id="ftahunLulus" name="ftahunLulus"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">DATA CALON PESERTA</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">4</td>
+                    <td><label for="fnamaLengkap">Nama Lengkap&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" id="fnamaLengkap" name="fnamaLengkap"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">5</td>
+                    <td><label for="fnik">NIK&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&thinsp;&thinsp;:</label>
+                        <input type="text" id="fnik" name="fnik"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">6</td>
+                    <td><label for="ftempatTanggalLahir">Tempat/Tanggal Lahir&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:</label>
+                        <input type="text" id="ftempatTanggalLahir" name="ftempatTanggalLahir"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">7</td>
+                        <td><label for="fjenisKelamin">Jenis Kelamin&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp;:</label>
+                        <select id="fjenisKelamin" name="fjenisKelamin">
+                            <option value="Perempuan">Perempuan</option>
+                            <option value="Laki-laki">Laki-laki</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">8</td>
+                    <td><label for="falamat">Alamat&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&thinsp;:</label>
+                        <input type="text" id="falamat" name="falamat"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">9</td>
+                    <td><label for="fdesaKelurahan">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Desa/Kel.&emsp;&emsp;&emsp;&thinsp;:</label>
+                        <input type="text" id="fdesaKelurahan" name="fdesaKelurahan"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">10</td>
+                    <td><label for="fkecamatan">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Kecamatan&emsp;&emsp;&ensp;&nbsp;:</label>
+                        <input type="text" id="fkecamatan" name="fkecamatan"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">11</td>
+                    <td><label for="fkabupaten">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Kabupaten&emsp;&emsp;&ensp;&nbsp;&thinsp;:</label>
+                        <input type="text" id="fkabupaten" name="fkabupaten"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">12</td>
+                    <td><label for="fprovinsi">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Provinsi&emsp;&emsp;&emsp;&ensp;&nbsp;&thinsp;:</label>
+                        <input type="text" id="fprovinsi" name="fprovinsi"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">13</td>
+                    <td><label for="femailAktif">Email Aktif&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp;&thinsp;:</label>
+                        <input type="email" id="femailAktif" name="femailAktif"></td>
+                </tr>
+                <tr>
+                    <th colspan="2">DATA ORANG TUA</th>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">14</td>
+                    <td><label for="fnoKK">Nomor Kartu Keluarga&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:</label>
+                        <input type="text" id="fnoKK" name="fnoKK"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">15</td>
+                    <td><label for="fnamaAyah">Nama Ayah Kandung&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&thinsp;:</label>
+                        <input type="text" id="fnamaAyah" name="fnamaAyah"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">16</td>
+                    <td><label for="fagamaAyah">Agama&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&thinsp;:</label>
+                        <input type="text" id="fagamaAyah" name="fagamaAyah"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">17</td>
+                    <td><label for="fpekerjaanAyah">Pekerjaan&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:</label>
+                        <input type="text" id="fpekerjaanAyah" name="fpekerjaanAyah"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">18</td>
+                    <td><label for="fnamaIbu">Nama Ibu Kandung&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;:</label>
+                        <input type="text" id="fnamaIbu" name="fnamaIbu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">19</td>
+                    <td><label for="fagamaIbu">Agama&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;&nbsp;:</label>
+                        <input type="text" id="fagamaIbu" name="fagamaIbu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">20</td>
+                    <td><label for="fpekerjaanIbu">Pekerjaan&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;:</label>
+                        <input type="text" id="fpekerjaanIbu" name="fpekerjaanIbu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">21</td>
+                    <td><label for="falamatOrtu">Alamat Orang Tua&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;:</label>
+                        <input type="text" id="falamatOrtu" name="falamatOrtu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">22</td>
+                    <td><label for="fdesaKelurahanOrtu">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Desa/Kel.&emsp;&emsp;&emsp;&thinsp;:</label>
+                        <input type="text" id="fdesaKelurahanOrtu" name="fdesaKelurahanOrtu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">23</td>
+                    <td><label for="fkecamatanOrtu">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Kecamatan&emsp;&emsp;&ensp;&nbsp;:</label>
+                        <input type="text" id="fkecamatanOrtu" name="fkecamatanOrtu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">24</td>
+                    <td><label for="fkabupatenOrtu">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Kabupaten&emsp;&emsp;&ensp;&nbsp;&thinsp;:</label>
+                        <input type="text" id="fkabupatenOrtu" name="fkabupatenOrtu"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">25</td>
+                    <td><label for="fprovinsiOrtu">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Provinsi&emsp;&emsp;&emsp;&ensp;&nbsp;&thinsp;:</label>
+                        <input type="text" id="fprovinsiOrtu" name="fprovinsiOrtu"></td>
+                </tr>
+                <tr> 
+                    <td colspan="2" ><input type="submit" name="fsubmit" value="Kirim/Simpan"></td>
+                </tr>
+            </table>
+        </form>
+</body>
+</html>
